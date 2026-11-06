@@ -1,0 +1,23 @@
+{
+  "name": "memorymate-ai-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MemoryMate AI Express API with Groq and Hindsight memory",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test tests/memorySanitize.test.js tests/groqTools.test.js tests/groqService.test.js tests/chatFlow.test.js tests/reflectFlow.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@vectorize-io/hindsight-client": "^1.2.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "groq-sdk": "^1.6.0"
+  }
+}
