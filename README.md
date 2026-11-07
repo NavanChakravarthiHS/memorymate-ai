@@ -1,4 +1,4 @@
-# MemoryMate AI
+ok# MemoryMate AI
 
 An intelligent personal AI assistant with long-term memory using [Hindsight](https://docs.hindsight.vectorize.io/cloud/typescript-sdk/) and [Groq](https://console.groq.com/docs/overview).
 
@@ -172,7 +172,7 @@ Record a 60–90 second walkthrough of the five judge steps (chat → refresh �
 
 Upload the file (unlisted YouTube, Drive, or the hackathon portal) and replace this line:
 
-**Demo video:** _add your URL here_
+**Demo video:** https://youtu.be/BbCymxap0lg?si=tBPwYE-L1YRhAOZ3
 
 Suggested outline:
 
